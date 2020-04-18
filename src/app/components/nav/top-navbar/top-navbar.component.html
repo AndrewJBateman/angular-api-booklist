@@ -1,0 +1,41 @@
+<!-- Top Navbar sticks to top of screen -->
+<mat-toolbar color="primary" sticky>
+  <button
+    mat-icon-button
+    (click)="onToggleSidenav()"
+    fxHide.gt-sm
+    aria-label="drop-down menu button"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a
+    class="top-nav-link"
+    routerLink="/book-list"
+    routerLinkActive="top-link-active"
+    aria-label="home nav button"
+    mat-button
+  >
+    <mat-icon>list</mat-icon>
+  </a>
+
+  <div fxFlex fxLayout fxLayoutAlign="end">
+    <div fxHide.lt-md>
+      <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+      <a
+        class="top-nav-link"
+        routerLink="/book-search"
+        routerLinkActive="top-link-active"
+        aria-label="book search nav button"
+        mat-button
+        ><mat-icon>search</mat-icon></a
+      >
+      <a
+        class="top-link-social"
+        href="https://github.com/AndrewJBateman/angular-api-booklist"
+        target="_blank"
+        rel="noreferrer"
+        >Github</a
+      >
+    </div>
+  </div>
+</mat-toolbar>

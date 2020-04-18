@@ -1,0 +1,16 @@
+mat-icon {
+  padding: 0 8px;
+}
+
+.side-nav-link {
+  color: #455A64;
+}
+
+.side-link-social {
+  padding: 16px 0;
+}
+
+.side-link-active {
+  color: #690726;
+  font-weight: bold;
+}

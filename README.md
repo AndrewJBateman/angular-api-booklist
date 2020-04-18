@@ -1,27 +1,52 @@
-# AngularApiBooklist
+# :zap: Angular API Booklist
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+* App to do simple arithmetic calculations.
+* Tutorial code from [Ahmed Bouchefra, TechieDiaries: Angular 9 Tutorial and Example: Build your First Angular App](https://www.techiediaries.com/angular/angular-9-tutorial-and-example/) to be expanded into a more complex calculator with Engineering functions.
 
-## Development server
+*** Note: to open web links in a new window use: _ctrl+click on link_**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## :books: General info
 
-## Code scaffolding
+* f
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :camera: Screenshots
 
-## Build
+* ![Example screenshot](./img/.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## :signal_strength: Technologies
 
-## Running unit tests
+* [Angular v9](https://angular.io/) javascript framework
+* [Angular Material v9](https://material.angular.io/) component library
+* [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
+* [@ngrx/store](https://ngrx.io/guide/store) RxJS powered state management
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## :floppy_disk: Setup
 
-## Running end-to-end tests
+* Install dependencies using `npm i`
+* Run `ng serve` to get a server at `http://localhost:4200/`
+* If required, run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## :computer: Code Examples
 
-## Further help
+* f
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```typescript
+
+```
+
+## :cool: Features
+
+* f
+
+## :clipboard: Status & To-Do List
+
+* Status: in dev
+* To-Do: complete
+
+## :clap: Inspiration
+
+* [Etienne Talbot, Medium post: Turn your Angular App into a PWA in 4 Easy Steps](https://medium.com/poka-techblog/turn-your-angular-app-into-a-pwa-in-4-easy-steps-543510a9b626),
+
+## :envelope: Contact
+
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)

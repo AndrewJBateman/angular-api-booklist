@@ -1,0 +1,18 @@
+mat-icon {
+  padding: 0 4px;
+}
+
+.top-nav-link {
+  color: white;
+  font-size: 14px;
+}
+
+.top-link-social {
+  padding: 0 16px;
+  font-size: 14px;
+  color: #cccff1;
+}
+
+.top-link-active {
+  color: rgb(245, 200, 241);
+}
