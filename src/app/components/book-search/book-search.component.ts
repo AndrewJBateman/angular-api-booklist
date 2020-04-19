@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { GoogleBookService } from '../../services/google-book.service';
+import { Book } from '../../models/google-api.interface';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-book-search',
@@ -6,10 +9,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./book-search.component.css']
 })
 export class BookSearchComponent implements OnInit {
+  books: Observable<Book[]>;
 
-  constructor() { }
+  constructor(private googleBookApiService: GoogleBookService) { }
 
   ngOnInit(): void {
+  }
+
+  bookQuery(bookTitle) {
+    if (bookTitle.length > 4) {
+      this.books = this.googleBookApiService.findBook(bookTitle);
+    }
+
   }
 
 }

@@ -8,13 +8,15 @@ import { NavModule } from './components/nav/nav.module';
 import { BookSearchComponent } from './components/book-search/book-search.component';
 import { BookDetailComponent } from './components/book-detail/book-detail.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { BookItemComponent } from './components/book-item/book-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookSearchComponent,
     BookDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BookItemComponent
   ],
   imports: [
     AppRoutingModule,

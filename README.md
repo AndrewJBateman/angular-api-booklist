@@ -1,17 +1,16 @@
 # :zap: Angular API Booklist
 
-* App to do simple arithmetic calculations.
-* Tutorial code from [Ahmed Bouchefra, TechieDiaries: Angular 9 Tutorial and Example: Build your First Angular App](https://www.techiediaries.com/angular/angular-9-tutorial-and-example/) to be expanded into a more complex calculator with Engineering functions.
+* Angular 9 with Angular Material app to search for books from the Google Books API.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## :books: General info
 
-* f
+* Book search form and search results displayed using mat-cards
 
 ## :camera: Screenshots
 
-* ![Example screenshot](./img/.png)
+* ![Example screenshot](./img/books.png)
 
 ## :signal_strength: Technologies
 
@@ -40,12 +39,12 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: in dev
-* To-Do: complete
+* Status: API book search working - results shown in mat-cards
+* To-Do:  Change format to same as for my website flex layout
 
 ## :clap: Inspiration
 
-* [Etienne Talbot, Medium post: Turn your Angular App into a PWA in 4 Easy Steps](https://medium.com/poka-techblog/turn-your-angular-app-into-a-pwa-in-4-easy-steps-543510a9b626),
+* [Google Books APIs: Performing a Search](https://developers.google.com/books/docs/v1/using),
 
 ## :envelope: Contact
 

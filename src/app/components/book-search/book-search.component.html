@@ -1,1 +1,20 @@
-<p>book-search works!</p>
+<div class="main-div">
+  <mat-card>
+    <h1>Search a book</h1>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Find a book</mat-label>
+      <input
+        matInput
+        placeholder="Enter book title"
+        (keyup)="bookQuery($event.target.value)"
+        />
+    </mat-form-field>
+  </mat-card>
+</div>
+
+<div>
+  <app-book-item *ngFor="let book of books | async" [book]="book">
+    <p>test</p>
+  </app-book-item>
+</div>
