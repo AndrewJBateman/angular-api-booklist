@@ -1,6 +1,6 @@
 # :zap: Angular API Booklist
 
-* Angular 9 with Angular Material app to search for books from the Google Books API.
+* Angular 10 with Angular Material app to search for books from the Google Books API.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -14,8 +14,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v9](https://angular.io/) javascript framework
-* [Angular Material v9](https://material.angular.io/) component library
+* [Angular v10](https://angular.io/) javascript framework
+* [Angular Material v10](https://material.angular.io/) component library
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 * [@ngrx/store](https://ngrx.io/guide/store) RxJS powered state management
 
@@ -40,7 +40,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: API book search working - results shown in mat-cards
-* To-Do:  Change format to same as for my website flex layout
+* To-Do:  Change format to same as for my website flex layout. Change API to show different data
 
 ## :clap: Inspiration
 
