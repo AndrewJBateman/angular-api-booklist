@@ -19,6 +19,7 @@ export class BookSearchComponent implements OnInit {
   bookQuery(bookTitle) {
     if (bookTitle.length > 4) {
       this.books = this.googleBookApiService.findBook(bookTitle);
+      console.log('books', this.books);
     }
 
   }

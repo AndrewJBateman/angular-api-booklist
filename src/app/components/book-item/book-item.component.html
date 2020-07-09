@@ -1,15 +1,16 @@
-<a [routerLink]="['/book', id]" style="width:100%;">
+  <a [routerLink]="['/book', id]" style="width: 100%;">
   <mat-card>
-      <mat-card-title-group>
-          <img mat-card-sm-image *ngIf="thumbnail" [src]="thumbnail" />
-          <mat-card-title>{{ book.volumeInfo.title }}</mat-card-title>
-          <mat-card-subtitle *ngIf="book.volumeInfo.subtitle">
-              {{ book.volumeInfo.subtitle }}. Author: {{ book.volumeInfo.authors }}
-          </mat-card-subtitle>
-      </mat-card-title-group>
-      <mat-card-content>
-          <p *ngIf="book.volumeInfo.description">{{ book.volumeInfo.description }}</p>
-      </mat-card-content>
-
+    <mat-card-title-group>
+      <img mat-card-sm-image *ngIf="thumbnail" [src]="thumbnail" />
+      <mat-card-title>{{ book.volumeInfo.title }}</mat-card-title>
+      <mat-card-subtitle *ngIf="book.volumeInfo.subtitle">
+        {{ book.volumeInfo.subtitle }}. Author: {{ book.volumeInfo.authors }}
+      </mat-card-subtitle>
+    </mat-card-title-group>
+    <mat-card-content>
+      <p *ngIf="book.volumeInfo.description">
+        {{ book.volumeInfo.description }}
+      </p>
+    </mat-card-content>
   </mat-card>
 </a>
