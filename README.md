@@ -35,7 +35,7 @@
 
 ## :cool: Features
 
-* f
+* Google book search API does not require a key
 
 ## :clipboard: Status & To-Do List
 
