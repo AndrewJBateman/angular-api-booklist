@@ -27,7 +27,7 @@
 
 ## :computer: Code Examples
 
-* extract from google-books.ervice.ts to retrieve book search items from Google Books API
+* extract from google-books.service.ts to retrieve book search items from Google Books API
 
 ```typescript
 export class GoogleBookService {
