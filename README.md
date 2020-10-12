@@ -27,10 +27,20 @@
 
 ## :computer: Code Examples
 
-* f
+* extract from google-books.ervice.ts to retrieve book search items from Google Books API
 
 ```typescript
+export class GoogleBookService {
+  private API_URL = "https://www.googleapis.com/books/v1/volumes";
 
+  constructor(private http: HttpClient) {}
+
+  findBook(title: string): Observable<Book[]> {
+    return this.http
+      .get<GoogleBooksApiInterface>(`${this.API_URL}?q=${title}`)
+      .pipe(map((data: GoogleBooksApiInterface) => data.items));
+  }
+}
 ```
 
 ## :cool: Features
