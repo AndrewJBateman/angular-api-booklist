@@ -1,8 +1,12 @@
 # :zap: Angular API Booklist
 
-* Angular 11 with Angular Material app to search for books from the Google Books API.
+* Angular with Angular Material app to search for books from the Google Books API.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-api-booklist?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-api-booklist?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-api-booklist?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-api-booklist?style=plastic)
 
 ## :books: General info
 
@@ -14,8 +18,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/) javascript framework
-* [Angular Material v11](https://material.angular.io/) component library
+* [Angular v12](https://angular.io/) javascript framework
+* [Angular Material v12](https://material.angular.io/) component library
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 * [@ngrx/store](https://ngrx.io/guide/store) RxJS powered state management
 
@@ -56,6 +60,10 @@ export class GoogleBookService {
 
 * [Google Books APIs: Performing a Search](https://developers.google.com/books/docs/v1/using),
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
