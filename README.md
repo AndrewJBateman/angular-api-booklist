@@ -53,7 +53,7 @@ export class GoogleBookService {
 
 ## :clipboard: Status & To-Do List
 
-* Status: API book search working - results shown in mat-cards
+* Status: Working. Updated may 2021
 * To-Do:  Change format to same as for my website flex layout. Change API to show different data
 
 ## :clap: Inspiration
