@@ -9,6 +9,7 @@ import { BookSearchComponent } from "./components/book-search/book-search.compon
 import { BookDetailComponent } from "./components/book-detail/book-detail.component";
 import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 import { BookItemComponent } from "./components/book-item/book-item.component";
+import { BookListComponent } from "./components/book-list/book-list.component";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BookItemComponent } from "./components/book-item/book-item.component";
     BookDetailComponent,
     PageNotFoundComponent,
     BookItemComponent,
+    BookListComponent,
   ],
   imports: [
     AppRoutingModule,

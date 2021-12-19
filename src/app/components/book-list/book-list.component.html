@@ -1,1 +1,9 @@
-<p>book-list works!</p>
+<div>
+  <app-book-item
+    *ngFor="let book of books | async; let first = first; let last = last;"
+    [ngClass]="{ first: first, last: last }"
+    [book]="book"
+  >
+    <p>test</p>
+  </app-book-item>
+</div>
