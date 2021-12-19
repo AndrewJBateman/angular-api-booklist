@@ -1,12 +1,30 @@
 # :zap: Angular API Booklist
 
-* Angular with Angular Material app to search for books from the Google Books API.
+* Angular with Angular Material app to search for books from the Google Books API
+* Displays initial list of books using predefined list query
+* Allows user to search for books using a query string of 4 or more letters
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-api-booklist?style=plastic)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-api-booklist?style=plastic)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-api-booklist?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-api-booklist?style=plastic)
+
+## :page_facing_up: Table of contents
+
+* [:zap: Angular API Booklist](#zap-angular-api-booklist)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:flashlight: Testing](#flashlight-testing)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -50,15 +68,17 @@ export class GoogleBookService {
 ## :cool: Features
 
 * Google book search API does not require a key
+* Uses [*ngFor](https://blog.angular-university.io/angular-2-ngfor/) first and last of list identifiers to change CSS class colors
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
-* To-Do:  Change format to same as for my website flex layout. Change API to show different data
+* Status: Working
+* To-Do:  Nothing
 
 ## :clap: Inspiration
 
-* [Google Books APIs: Performing a Search](https://developers.google.com/books/docs/v1/using),
+* [Google Books APIs: Performing a Search](https://developers.google.com/books/docs/v1/using)
+* [Tutorial Tips: Cannot find name '..'. Do you need to change your target library?](https://tutorial.tips/solved-cannot-find-name-do-you-need-to-change-your-target-library/)
 
 ## :file_folder: License
 
