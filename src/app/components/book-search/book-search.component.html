@@ -8,13 +8,16 @@
         matInput
         placeholder="Enter book title"
         (keyup)="bookQuery($event.target.value)"
-        />
+      />
     </mat-form-field>
   </mat-card>
 </div>
 
 <div>
-  <app-book-item *ngFor="let book of books | async" [book]="book">
-    <p>test</p>
+  <app-book-item
+    *ngFor="let book of books | async; let first = first; let last = last"
+    [book]="book"
+    [ngClass]="{ first: first, last: last }"
+  >
   </app-book-item>
 </div>

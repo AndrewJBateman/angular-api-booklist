@@ -7,3 +7,11 @@ mat-card {
   max-width: 600px;
   margin: 2em auto;
 }
+
+.first {
+  background: rgb(166, 166, 233);
+}
+
+.last {
+  background: rgb(233, 192, 116);
+}

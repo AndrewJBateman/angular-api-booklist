@@ -16,7 +16,7 @@ export class BookSearchComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  bookQuery(bookTitle) {
+  bookQuery(bookTitle: string) {
     if (bookTitle.length > 4) {
       this.books = this.googleBookApiService.findBook(bookTitle);
       console.log('books', this.books);
