@@ -18,8 +18,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/) javascript framework
-* [Angular Material v12](https://material.angular.io/) component library
+* [Angular v13](https://angular.io/) javascript framework
+* [Angular Material v13](https://material.angular.io/) component library
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 * [@ngrx/store](https://ngrx.io/guide/store) RxJS powered state management
 
@@ -53,7 +53,7 @@ export class GoogleBookService {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021
+* Status: Working.
 * To-Do:  Change format to same as for my website flex layout. Change API to show different data
 
 ## :clap: Inspiration
