@@ -1,5 +1,5 @@
   <a [routerLink]="['/book', id]" style="width: 100%;">
-  <mat-card>
+  <mat-card appearance="outlined">
     <mat-card-title-group>
       <img mat-card-sm-image *ngIf="thumbnail" [src]="thumbnail" />
       <mat-card-title>{{ book.volumeInfo.title }}</mat-card-title>
