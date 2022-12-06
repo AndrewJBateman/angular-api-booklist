@@ -38,7 +38,7 @@
 * [Angular v15](https://angular.io/) javascript framework
 * [Angular Material v15](https://material.angular.io/) component library
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
-* [@ngrx/store v13](https://ngrx.io/guide/store) RxJS powered state management
+* [@ngrx/store v15](https://ngrx.io/guide/store) RxJS powered state management
 
 ## :floppy_disk: Setup
 
@@ -72,7 +72,7 @@ export class GoogleBookService {
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do:  Nothing
+* To-Do:  Add book-detail, improve side-nav
 
 ## :clap: Inspiration
 
