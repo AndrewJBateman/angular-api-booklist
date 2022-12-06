@@ -1,6 +1,6 @@
-<div>
+<div class="container">
   <app-book-item
-    *ngFor="let book of books | async; let first = first; let last = last;"
+    *ngFor="let book of books | async; let first = first; let last = last"
     [ngClass]="{ first: first, last: last }"
     [book]="book"
   >
